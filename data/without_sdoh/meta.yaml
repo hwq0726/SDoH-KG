@@ -1,0 +1,23 @@
+dataset_name: finalkg
+edge_data:
+- file_name: edges_0_1.csv
+  etype: [drug, drug_disease, disease]
+- file_name: edges_0_2.csv
+  etype: [drug, drug_phenotype, phenotype]
+- file_name: edges_1_2.csv
+  etype: [disease, disease_phenotype, phenotype]
+- file_name: edges_1_0.csv
+  etype: [disease, disease_drug, drug]
+- file_name: edges_2_0.csv
+  etype: [phenotype, phenotype_drug, drug]
+- file_name: edges_2_1.csv
+  etype: [phenotype, phenotype_disease, disease]
+  
+
+node_data:
+- file_name: nodes_0.csv
+  ntype: drug
+- file_name: nodes_1.csv
+  ntype: disease
+- file_name: nodes_2.csv
+  ntype: phenotype
