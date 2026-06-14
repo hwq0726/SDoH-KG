@@ -10,3 +10,18 @@ To run the experiment, ensure you have the Deep Graph Library ([DGL](https://www
 
 ```bash
 pip install dgl -f https://data.dgl.ai/wheels/torch-2.3/cu121/repo.html
+```
+
+### 📖 Citation
+If you find this work helpful, please consider citing our paper:
+
+```bibtex
+@article{shang2025integrating,
+  title={Integrating social determinants of health into knowledge graphs: Evaluating prediction bias and fairness in healthcare},
+  author={Shang, Tianqi and He, Weiqing and Chen, Tianlong and Ding, Ying and Wu, Huanmei and Zhou, Kaixiong and Shen, Li},
+  journal={AMIA Summits on Translational Science Proceedings},
+  volume={2025},
+  pages={481},
+  year={2025}
+}
+```
